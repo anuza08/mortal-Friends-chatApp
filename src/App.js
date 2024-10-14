@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { receiveMessage } from "./redux/chatSlice";
+import { Box, Container, Typography } from "@mui/material";
+import ChatWindow from "./components/chatWindow";
+import MessageInput from "./components/messageInput";
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      dispatch(receiveMessage({ text: "Hello! This is a simulated message." }));
+    }, 5000);
+
+    return () => clearTimeout(timer);
+  }, [dispatch]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Box display="flex" alignItems="center" justifyContent="center" mb={3}>
+        <img src="/assests/logo.png" alt="logo" height={120} />
+        <Typography variant="h4" align="center" gutterBottom>
+          <h2 style={{ color: "#E661E6" }}>Mortal Friends</h2>
+        </Typography>
+      </Box>
+
+      <ChatWindow />
+      <MessageInput />
+    </Container>
   );
 }
 
