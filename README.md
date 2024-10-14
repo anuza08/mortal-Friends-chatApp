@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/1f3fb364-5a38-427c-9a5e-77eac50a5410" alt="logo" width="150"/>
+<img src="D:\reactProject\chatApp\app\public\favicon.ico" alt="logo" width="150"/>
 
 # Mortal Friend 💬
 
