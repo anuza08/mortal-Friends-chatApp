@@ -1,5 +1,5 @@
 
-![logo](https://github.com/user-attachments/assets/bc8ba6d7-aaad-466f-9e00-1369041c993d)
+![logo](https://github.com/user-attachments/assets/bc8ba6d7-aaad-466f-9e00-1369041c993d){:width="200px" height="200px"}
 
 # Mortal Friend 💬
 
