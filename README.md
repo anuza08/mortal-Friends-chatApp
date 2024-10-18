@@ -1,11 +1,11 @@
-# Mortal Friend 💬
+# Immortal Friend 💬
 
 <img src="https://github.com/user-attachments/assets/bc8ba6d7-aaad-466f-9e00-1369041c993d" alt="logo" width="200" height="200"/>
 
 
 **Your ultimate destination for never-ending conversations!**
 
-> **Mortal Friend** 🌟
+> **Immortal Friend** 🌟
 
 ---
 
