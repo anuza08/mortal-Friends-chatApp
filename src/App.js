@@ -21,7 +21,7 @@ function App() {
       <Box display="flex" alignItems="center" justifyContent="center" mb={3}>
         <img src="/assests/logo.png" alt="logo" height={120} />
         <Typography variant="h4" align="center" gutterBottom>
-          <h2 style={{ color: "#E661E6" }}>Mortal Friends</h2>
+          <h2 style={{ color: "#E661E6" }}>Immortal Friends</h2>
         </Typography>
       </Box>
 
